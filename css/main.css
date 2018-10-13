@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 640px){
+	#cover{
+		width: 100%;
+	}
+}
+
+.padding{
+	padding: 25px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+#icons a{
+	text-decoration: none;
+	font-size: 16px;
+	color: black !important;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+#cimg{
+	height: 250px;
+	width: 170px;
+}
+
+#cover{
+	background: url(../images/picture2.jpg) no-repeat center center fixed;
+	height: 110vh;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px; 
+
+}
+
+.jumbotron{
+	display: inline-block;
+}
+
+#photo{
+	height: 200px;
+	width: 300px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote cite {
+  display: inline;
+}
+
+footer{
+	background-color: #BCBAC8;
+}
+
+#icon{
+	font-size: 60px;
+	padding: 30px;
+}
