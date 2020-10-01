@@ -30,8 +30,16 @@ a:hover{
 }
 
 #cimg{
-	height: 250px;
-	width: 170px;
+	/*height: 250px;
+	width: 170px;*/
+}
+
+	.fit-image{
+width: 100%;
+object-fit: cover;
+height: 300px; 
+  padding: 20px; 
+ /* only if you want fixed height */
 }
 
 #cover{
